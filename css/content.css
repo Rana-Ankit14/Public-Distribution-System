@@ -1,0 +1,101 @@
+div#content{
+	background-color: #e9f3e2;
+	min-height: 550px;
+
+}
+
+
+/* Login form design */
+
+
+#content div#login form{
+
+	text-align: center;
+	margin-top: 50px;
+}
+
+
+#content div#login hr,h1{
+	display: inline-block;
+}
+
+#content div#login hr {
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+    width: 100px;
+   	margin-bottom: 4px;
+   	margin-right: 5px;
+   	margin-left: 5px;
+}
+
+
+
+#content div#login h1{
+	font-size: 25px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	color: #7e7e7e;
+	
+}
+
+#content div#login form input[type="text"],input[type="password"],input[type="email"],input[type="number"]{
+	
+	height: 45px;
+	margin: 5px 0 5px 0;
+	padding-left: 30px;
+	border-radius: 100px;
+	border: 1px solid grey;
+	outline: none;
+	font-size: 16px; 
+}
+
+#content div#login form input[type="submit"]{
+	border:none;
+	border-radius: 100px;
+	padding: 5px;
+	width: 100px;
+	height: 30px;
+ 	background: linear-gradient(#ff6d9a, #a00031);
+ 	font-weight: bold;
+ 	float: left;
+ 	margin: 10px 0px 20px 0px;
+ 	font-size: 18px;
+ 	font-family: monospace;
+ 	color: #ffffff;
+}
+
+
+#content div#login form input[type="submit"]:hover{
+	background: linear-gradient(#f5004b,#ff6d9a);
+	cursor: pointer;
+}
+
+#content div#login form  a{
+	float: right;
+	color: #004a80;
+	text-decoration: underline;
+	margin-top: 0px;
+
+}
+
+#content div#login form  a#forgot-password{
+	margin: 0;
+}
+
+/* Login form design end */
+
+
+div#content div#main{
+  color: #548134;
+  text-align: center;
+  padding-top: 100px;
+}
+
+div#content div#main h1,h3{
+	font-family: glamor;
+}
+
+div#content div#main h1{
+	font-size: 35px;
+}

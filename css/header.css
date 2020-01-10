@@ -1,0 +1,65 @@
+body{
+/*	background-color: #dadada;*/
+	background-color: #ffffff;
+	font-family: georgia;
+	padding: 5px;
+}
+
+
+/* Positioning of every main container */
+#content,#footer,#header,#login{
+	position: relative;
+}
+
+
+
+
+/* Header Box */
+
+#header{
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	background-color: #b3d699;
+	background: -moz-linear-gradient(top, #b3d699, #64993d);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#b3d699), to(#64993d));
+	min-height: 125px;
+
+}
+
+
+
+div#header div#logo{
+	min-height: 125px;
+}
+
+div#header div#logo h1{
+	font-family: zebrazil;
+	font-weight: bolder;
+	margin: 45px auto auto 20px;
+	font-size: 45px;
+	color: #354f55;
+}
+
+div#header div#nav{
+	margin-top: 25px;
+}
+
+div#header div#nav ul li{
+	list-style: none;
+	display: inline-block;
+	
+}
+
+div#header div#nav ul li a{
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+}
+
+/* footer */
+
+div#footer{
+	min-height: 25px;
+	background-color: #6ca542;
+	float: right;
+}
